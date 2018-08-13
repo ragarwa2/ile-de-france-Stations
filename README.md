@@ -79,7 +79,10 @@ example tuple:
 	{'_id': 'RER D', 'count': 59}
 	```
 for the above, (if you are using mongodb you can execute):
-	```collection.aggregate(pipeline=[{"$group" : {'_id':'$line', 'count':{"$sum":1}}}])```
+	```
+	collection.aggregate(pipeline=[{'$group' : {'_id':'$line', 'count':{"$sum":1}}}])
+	```
+	
 ### Authors
 - [Rachit Agarwal](https://github.com/ragarwa2/)
 - [Shaan Chopra](https://github.com/shaan15)
