@@ -28,8 +28,8 @@ example tuple:
 ```
 
 ### Authors
-- Rachit Agarwal (@ragarwa2)
-- Shaan Chopra (@shaan15)
+- [Rachit Agarwal](https://github.com/ragarwa2/)
+- [Shaan Chopra](https://github.com/shaan15)
 
 ### Licence
 CC
