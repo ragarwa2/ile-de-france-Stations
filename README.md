@@ -27,7 +27,12 @@ example tuple:
 
 ```
 ### Other Info:
-- The station names are represented in 2 ways. For the metro lines the name are in lower case while for all other modes it is in upper case
+- The station names are represented in 2 ways. For the metro lines the name are in lower case while for all other modes it is in upper case. Note that some staion names are repeated as they serve different modes on different platforms. Example:
+	```
+	{'_id': 'LA DÉFENSE-GRANDE ARCHE', 'count': 3}
+	{'_id': 'La Défense - Grande Arche', 'count': 2}
+	```
+
 - The station names also have accented characters
 - `underground = true` means that the station is underground. False represents the station is overground
 - We have not included new proposed lines in Ile-de-France region
